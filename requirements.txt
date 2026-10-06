@@ -1,0 +1,6 @@
+# Verified on Python 3.12.3. Week 1 dependencies only.
+numpy==1.26.4
+pytest==7.4.4
+iniconfig==1.1.1
+packaging==24.0
+pluggy==1.4.0

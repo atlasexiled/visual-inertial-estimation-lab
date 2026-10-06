@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+# A sourced ROS shell exposes these plugins through PYTHONPATH, even in an
+# isolated venv. This numerical lab does not run ROS launch tests.
+addopts = "-ra -p no:launch_testing -p no:launch_ros"
